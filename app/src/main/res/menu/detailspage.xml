@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bmark" android:title="Bookmarks" app:showAsAction="ifRoom" />
+    <item  android:id="@+id/testament" android:title="Old Testament" app:showAsAction="always" />
+    <item android:id="@+id/rateapp" android:title="Rate Us" app:showAsAction="always" />
+    <item  android:id="@+id/zoomin" android:title="Zoom In" app:showAsAction="always" />
+    <item  android:id="@+id/zoomout" android:title="Zoom Out" app:showAsAction="always" />
+</menu>

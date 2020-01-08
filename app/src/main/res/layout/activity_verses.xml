@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:background="#FFFFFF"
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout_bottom">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="70dp"
+            android:clipToPadding="false"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:id="@+id/linear_layout_bottom"
+        android:background="@color/colorGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/previousChapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="-3dp"
+            android:text="Ch."
+            android:drawableLeft="@drawable/arrowleft" />
+        <TextView
+            android:textSize="18dp"
+            android:textColor="@color/colorText"
+            android:id="@+id/chapters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/nextChapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ch."
+            android:drawableRight="@drawable/arrowright" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll"
+        android:paddingBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/activity_book_marks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/custom_toolbar" layout="@layout/custom_tool_bar" />
+    <android.support.v7.widget.RecyclerView android:id="@+id/bookmarks"
+        android:padding="5dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@id/custom_toolbar" />
+</RelativeLayout>

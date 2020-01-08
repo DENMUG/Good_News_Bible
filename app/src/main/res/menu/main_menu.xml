@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnm_old_testament" android:title="@string/str_ot" />
+    <item android:id="@+id/mnm_new_testament" android:title="@string/str_nt" />
+    <!--<item android:id="@+id/mnm_search" android:title="@string/str_search" />-->
+    <item android:id="@+id/mnm_bookmark" android:title="@string/str_bookmark" />
+    <!--<item android:id="@+id/mnm_light" android:title="@string/str_contrast" />-->
+    <item android:id="@+id/mnm_share" android:title="@string/str_share">
+    <menu>
+        <item android:id="@+id/mnm_share_facebook" android:title="Facebook" />
+        <item android:id="@+id/mnm_share_tweteer" android:title="Twitter" />
+        <item android:id="@+id/mnm_share_googlep" android:title="Google+" />
+        <item android:id="@+id/mnm_share_more" android:title="@string/str_more" />
+    </menu></item>
+    <!--<item android:id="@+id/mnm_about" android:title="@string/str_about" />-->
+    <item android:id="@+id/mnm_rate" android:title="@string/str_rate" />
+    <item android:id="@+id/mnm_more_app" android:title="@string/str_more_app" />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/bmark" android:title="Bookmarks"  />
+    <item  android:id="@id/testament" android:title="New Testament" />
+    <item android:id="@id/rateapp" android:title="Rate Us"  />
+    <item  android:id="@id/zoomin" android:title="Zoom In" />
+    <item  android:id="@id/zoomout" android:title="Zoom Out" />
+</menu>
